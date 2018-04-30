@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <title>NxtLife Technologies</title>
 </head>
 <body>
-    <nav>
+    <div class="hamburger" id="ham">
+        <i class="fa fa-bars"></i>
+    </div>
+    <nav id="menu">
         <div class="container">
             <div class="wrapper">
             <div class="logo">NxtLife Technologies</div>
@@ -20,8 +24,15 @@
             </ul> <div class="clearfix"></div>
         </div></div>       
     </nav>
+    
     <div class="clearfix"></div>
-
+    <div id="nav">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <span>NxtLife Technologies</span>        
+        </div>
     <section id="home">
         <div class="container">
             <div class="main-text">
@@ -42,8 +53,85 @@
     <section id="products">
         <div class="container">
             <div class="toast">Products</div>
-            <div class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus illum aliquid laudantium quibusdam rem perspiciatis corrupti officia iste ex veniam itaque id magni ullam, impedit a voluptates ad quidem, ipsum recusandae vitae quo! Autem, aliquid nihil. Minus vitae aut, quod fugiat corrupti rerum magni voluptas, deserunt quidem reprehenderit dolore!</div>
+            <div class="section-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem recusandae exercitationem fugiat earum hic culpa similique sequi accusantium minus cum.</div>
+            <div class="product-wrapper">
+                <div class="product">
+                    <div class="icon-wrapper"><i class="product-icon fas fa-chart-pie"></i></div>
+                    <div class="product-name">Strategic Plan</div>
+                </div>
+                <div class="product">
+                    <div class="icon-wrapper"><i class="product-icon fas fa-handshake"></i></div>
+                    <div class="product-name">Shakeholder's Experience Management</div>
+                </div>
+                <div class="product">
+                    <div class="icon-wrapper"><i class="product-icon fas fa-handshake"></i></div>
+                    <div class="product-name">Risk Management and Internal Audit</div>
+                </div>
+                <div class="product">
+                    <div class="icon-wrapper"><i class="product-icon fas fa-shield-alt"></i></div>
+                    <div class="product-name">Quality Assurance and Accreditation</div>
+                </div>
+            </div>
+        </div>
+        <div class="quote">
+            <div class="text">Vision is the art of seeing things invisible</div>
+            <div class="by">-   Jonathan Swift</div>
         </div>
     </section>
+    <section id="services">
+        <div class="container">
+            <div class="toast">Services</div>
+            <div class="section-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem recusandae exercitationem fugiat earum hic culpa similique sequi accusantium minus cum.</div>        
+            
+            <div class="services-wrapper">
+                <div class="service">
+                    <div class="service-art">
+                        <img src="software.jpg" alt="">
+                    </div>
+                    <div class="service-desc">
+                        <h2>Software Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo error, tempore laudantium numquam nam recusandae sapiente iure voluptate, minus atque, ipsa labore aperiam mollitia quod ad? Aperiam, iusto corrupti.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-desc">
+                        <h2>Training</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo error, tempore laudantium numquam nam recusandae sapiente iure voluptate, minus atque, ipsa labore aperiam mollitia quod ad? Aperiam, iusto corrupti.</p>
+                    </div>
+                    <div class="service-art">
+                        <img src="training.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-art">
+                        <img src="consultancy.jpeg" alt="">
+                    </div>
+                    <div class="service-desc">
+                        <h2>Consultancy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo error, tempore laudantium numquam nam recusandae sapiente iure voluptate, minus atque, ipsa labore aperiam mollitia quod ad? Aperiam, iusto corrupti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <header>
+                    <h2>Who are we?</h2>
+                </header>
+                <p>We are all about education and technology. Well, not exactly ‘educational technology’ but that’s only a part of what we do. What we are good at is helping you build a world class university using the latest technological tools both on academic and operational side. Most of the companies working in the field cover either academic or operational side. We build the bridges between these two sides to improve the overall efficiency of the higher education institutions. That’s what makes us unique!</p>
+                <p>We strongly believe in the value of education as a catalyst which helps build a nation’s future and changes lives. We also believe that technology will become even more crucial in building quality educational institutions. Technology helps make education more accessible, flexible and affordable. The tools we provide help the institution turn any higher education institution into a world class institution in a very short time.</p>
+                <div class="shape"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2018 DocType Code</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
